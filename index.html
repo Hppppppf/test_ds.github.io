@@ -101,14 +101,11 @@
 浏览量:&nbsp;<span id="" class="leancloud_visitors" data-flag-title=""> - </span>次.
     <script src="script.js"></script>
 	<!-- 同时兼容http与https -->
-<script src="//unpkg.com/leancloud-storage@4.12.2/dist/av-min.js"></script>
+<!-- 同时兼容http与https -->
+<script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
 <script>
     // 第一个参数是appid，第二个参数是appkey，此处的只是示例
-    AV.init({
-      appId: "ENBZ1RSuxxVVZnmvZnrJAfrc-gzGzoHsz",
-      appKey: "5yQhWWxccGEpBsfcPeQptieH",
-      serverURL: "https://enbz1rsu.lc-cn-n1-shared.com"
-    });
+    AV.initialize("ENBZ1RSuxxVVZnmvZnrJAfrc-gzGzoHsz", "5yQhWWxccGEpBsfcPeQptieH");
     // 自己创建的Class的名字
     var name='Counter';
     function createRecord(Counter){
