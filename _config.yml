@@ -1,4 +1,4 @@
 # _config.yml
-theme: jekyll-theme-minimal
+theme: bulma-clean-theme
 plugins:
   - jekyll-optional-front-matter
