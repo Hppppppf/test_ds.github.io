@@ -1,0 +1,4 @@
+# _config.yml
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-optional-front-matter
