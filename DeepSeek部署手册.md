@@ -7,7 +7,7 @@
 - 昇腾从下往上：昇腾硬件设备 → 昇腾驱动与固件 → CANN → MindIE（华为推理引擎） → Server API
 - 英伟达从下往上：Nvidia设备 → 驱动 →CUDA → VLLM（开源推理引擎） → Server API
     
-    ![image.png](DeepSeek%E9%83%A8%E7%BD%B2%201a21b68d6cef80f690bbe88a44fc4807/image.png)
+    ![image.png](DeepSeek部署手册/image.png)
     
 
 ## 二、DeepSeek模型部署
@@ -61,7 +61,7 @@ vi /tec/fstab
 
 - 官方源下载方法：
     
-    [模型权重官方仓库下载](DeepSeek%E9%83%A8%E7%BD%B2%201a21b68d6cef80f690bbe88a44fc4807/%E6%A8%A1%E5%9E%8B%E6%9D%83%E9%87%8D%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93%E4%B8%8B%E8%BD%BD%201a21b68d6cef8064ab45c30ef6dbafc9.md)
+    [模型权重官方仓库下载](DeepSeek部署手册/image1.png)
     
 - 华为obs权重下载
 
@@ -120,7 +120,7 @@ chmod -R 750 /path-to-weights/DeepSeek-R1
 - 镜像地址[https://www.hiascend.com/developer/ascendhub/detail/af85b724a7e5469ebd7ea13c3439d48f](https://www.hiascend.com/developer/ascendhub/detail/af85b724a7e5469ebd7ea13c3439d48f)
 - 拉取镜像
 
-![image.png](DeepSeek%E9%83%A8%E7%BD%B2%201a21b68d6cef80f690bbe88a44fc4807/image%201.png)
+![image.png](DeepSeek部署手册/image1.png)
 
 ### 4、多机通信检查
 
@@ -375,7 +375,7 @@ server {
 
 - Nginx启动会默认使用80端口，可将/etc/nginx/nginx.conf文件里的include /etc/nginx/sites-enabled/*注释掉：
 
-![image.png](DeepSeek%E9%83%A8%E7%BD%B2%201a21b68d6cef80f690bbe88a44fc4807/image%202.png)
+![image.png](DeepSeek部署手册/image3.png)
 
 ### 修改容器配置
 
