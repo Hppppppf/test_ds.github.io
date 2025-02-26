@@ -1,4 +1,5 @@
 # _config.yml
-theme: bulma-clean-theme
+# With GitHub Pages Gem
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - jekyll-optional-front-matter
