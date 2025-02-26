@@ -61,7 +61,7 @@ vi /tec/fstab
 
 - 官方源下载方法：
     
-    [模型权重官方仓库下载](DeepSeek部署手册/image1.png)
+    [模型权重官方仓库下载](DeepSeek部署手册/模型权重官方仓库下载.md)
     
 - 华为obs权重下载
 
@@ -120,7 +120,7 @@ chmod -R 750 /path-to-weights/DeepSeek-R1
 - 镜像地址[https://www.hiascend.com/developer/ascendhub/detail/af85b724a7e5469ebd7ea13c3439d48f](https://www.hiascend.com/developer/ascendhub/detail/af85b724a7e5469ebd7ea13c3439d48f)
 - 拉取镜像
 
-![image.png](DeepSeek部署手册/image1.png)
+![image.png](DeepSeek部署手册/image_1.png)
 
 ### 4、多机通信检查
 
@@ -375,7 +375,7 @@ server {
 
 - Nginx启动会默认使用80端口，可将/etc/nginx/nginx.conf文件里的include /etc/nginx/sites-enabled/*注释掉：
 
-![image.png](DeepSeek部署手册/image3.png)
+![image.png](DeepSeek部署手册/image_2.png)
 
 ### 修改容器配置
 
@@ -384,4 +384,4 @@ server {
 vim /usr/local/Ascend/mindie/latest/mindie-service/conf/config.json
 ```
 
-![image.png](DeepSeek%E9%83%A8%E7%BD%B2%201a21b68d6cef80f690bbe88a44fc4807/image%203.png)
+![image.png](DeepSeek部署手册/image_3.png)
