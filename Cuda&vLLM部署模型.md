@@ -2,7 +2,7 @@
 
 ## 一、整体架构
 
-![image.png](Cuda&vLLM%E9%83%A8%E7%BD%B2%E6%A8%A1%E5%9E%8B%201a91b68d6cef805c9a99cf7743186598/image.png)
+![image.png](Cuda&vLLM部署模型/image.png)
 
 ## 二、环境要求
 
